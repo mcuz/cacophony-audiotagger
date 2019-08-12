@@ -30,7 +30,7 @@ module.exports = merge(common, {
     contentBase: distDir,
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
   },
   devtool: '#eval-source-map',
 });
